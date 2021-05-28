@@ -1,0 +1,117 @@
+body {margin: 0px;
+     padding: 0px;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    input {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    a {
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    .contenedor {height: 100%;
+    width: 100%;
+    background: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/03/setup-gaming-2267149.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;}
+    
+    
+    .card {
+        background-image: url(https://ak.picdn.net/shutterstock/videos/1037027657/thumb/1.jpg);
+        border-radius: 8px;
+        box-shadow: 3px 4px 8px rgba(0.5, 0, 0, 1);
+        height: 468px;
+        display: flex;
+        justify-content: center;
+        margin: 6rem auto 8.1rem auto;
+        margin-top: 250px;
+        width: 329px;
+        display: flex;
+        flex-direction: column;
+      }
+    
+    
+    .Titulo-login { margin: 0px;
+        padding: 0px 0px 22px;
+        text-align: center;
+        margin-top: 240px;
+        font-size: 70px;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 4px;
+    }
+    
+      .formulario { align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+      }
+
+
+      .imagen-logo {
+          height: 100px;
+          margin-top: 60px;
+          border-radius: 10%;
+          width: 100px;
+          display: flex;
+          background-size: contain;
+      }
+    
+    .hardstore {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 2rem;
+        text-shadow: 4px 2px 31px rgba(255,0,0,1);
+        animation-name: cambio-de-color;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+    
+
+    
+    #enviar-boton {
+        background: -webkit-linear-gradient(right, #bfbfbf, #ff0000);
+        border: none;
+        border-radius: 21px;
+        box-shadow: 0px 1px 8px #bfbfbf;
+        cursor: pointer;
+        color: white;
+        font-family: "Raleway SemiBold", sans-serif;
+        height: 42.3px;
+        margin: 0 auto;
+        margin-top: 2px;
+        transition: 0.25s;
+        width: 153px;
+    }
+
+
+#enviar-boton1{
+    background: -webkit-linear-gradient(right, #bfbfbf, #ff0000);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #bfbfbf;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 2px;
+    transition: 0.25s;
+    width: 153px;
+
+ }
+   
