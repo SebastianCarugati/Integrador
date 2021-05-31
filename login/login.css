@@ -2,7 +2,7 @@ body {margin: 0px;
      padding: 0px;
     }
 
-    h3 {
+    h4 {
         font-family: 'Raleway', sans-serif;
     }
 
@@ -19,7 +19,53 @@ body {margin: 0px;
         font-family: 'Raleway', sans-serif;
     
     }
-    .contenedor {height: 100%;
+
+    .logo-pagina {
+        height: 70px;
+        width: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 35%;
+        margin-bottom: 150px;
+        padding: 0;
+        
+    }
+    
+    .imagen-logo {
+        border-radius: 10%;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .contenedor-header {
+        width: 100%;
+    }        
+    
+    @keyframes cambio-de-color {
+        0% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,0.5);
+        }
+        50% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,0.76);
+        }
+        100% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,1);
+        }
+    }
+    
+    .titulo-hardstore {
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+        font-size: 1rem;
+        text-shadow: 4px 2px 31px rgba(255,0,0,1);
+        animation-name: cambio-de-color;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+
+    .contenedor {
+    height: 100%;
     width: 100%;
     background: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/03/setup-gaming-2267149.jpg);
     background-repeat: no-repeat;

@@ -1,0 +1,211 @@
+
+main {
+    background-color: black;
+}
+
+.logo-pagina {
+    height: 70px;
+    width: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 35%;
+    margin-bottom: 10px;
+    padding: 0;
+    
+}
+
+.imagen-logo {
+    border-radius: 10%;
+    height: 70px;
+    width: 70px;
+}
+
+.navbar { 
+}
+
+.titulo-hardstore {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 1rem;
+    text-shadow: 4px 2px 31px rgba(255,0,0,1);
+    animation-name: cambio-de-color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+    
+    @keyframes cambio-de-color {
+        0% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,0.5);
+        }
+        50% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,0.76);
+        }
+        100% {
+            text-shadow: 4px 2px 33px rgba(255,0,0,1);
+        }
+    }
+    
+
+.contenedor-main {
+    
+    display: flex;
+    width: 100%;
+    
+ }
+
+
+ .contenedor-cards {
+     display: flex;
+     width: 100%;
+     justify-content: space-around;
+     margin: 50px 50px;
+
+ }
+
+ @media (max-width: 1000px) {
+    .contenedor-cards {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+ }
+
+ .card {
+    -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+    -moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+    box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+ }
+
+
+ .contenedor-cards h2 {
+     text-align: center;
+     font-family: 'Permanent Marker', cursive;
+ }
+
+ .contenedor-cards h3 {
+     text-align: center;
+
+ }
+ 
+ .contenedor-cards h5 {
+     text-align: center;
+     font-size: 1em;
+ }
+
+
+.contenedor-footer {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.contenedor-iframe {
+    width: 35%;
+    
+    
+}
+.mapa {
+    height: 400px;
+    width: 80%;
+    -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+-moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+}
+
+.contenedor-iconos{
+    width: 40%;
+    text-decoration: none;
+
+}
+
+    
+.iconos i {
+    width: 100%;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;  
+}
+
+.icon-twitter:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    color: #c13584;
+    cursor: pointer;
+}
+
+.icon-facebook:hover {
+    cursor: pointer;
+    color: #3b5998;
+}
+
+.icon-wsp:hover {
+    cursor: pointer;
+    color: #00f000;
+}
+
+.contenedor-contacto {
+    width: 30%;
+    display: flex;
+}
+
+
+.card-contacto{ 
+    background-image: url(https://image.freepik.com/vector-gratis/diseno-celular-blanco_20187-272.jpg);
+    background-position: center;
+    background-size: 635px;
+    background-position-x: center;
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+    -moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+    box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
+    width: 35%;
+    text-align: center;
+    height: 400px;
+    border: 3px solid white;
+    justify-content: space-around;
+}
+
+.textarea{
+    height: 150px;
+}
+.card-contacto h2 {
+color: white;
+text-align: center;
+font-family: 'Permanent Marker', cursive;
+}
+
+.button {
+    border-radius:50%;
+    margin-top: 25px;
+    font-size: 1.6em;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(6, 173, 0);
+    border: black;
+}
+
+.iconos a{
+    text-decoration: none;
+    color: inherit;   
+}
