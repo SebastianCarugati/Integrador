@@ -1,5 +1,5 @@
 <html>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
-<link rel="stylesheet" media="(max-width: 1200px)" href="login.css">
+<link rel="stylesheet" media="(max-width: 1200px)" href="register.css">
     <head>
         <body>
             <header>
@@ -55,22 +55,23 @@
 </nav>
 </header>
 
-
-
             <main>
             <div class="contenedor">
                 <div class="card">
-                    <div class="logeo">
-                        <h2 class="Titulo-login">Ingresa</h2>
+                    <div class="Registro">
+                        <h2 class="Titulo-register">Registrate</h2>
                         <form class="formulario">
+                        <p> <strong>Nombre</strong> </p>
+                        <input class="w-100" type="text" name="" placeholder="Nombre">
+                        <p> <strong>Apellido</strong> </p>
+                        <input class="w-100" type="text" name="" placeholder="Apellido">
                         <p> <strong>Email</strong> </p>
-                        <input type="text" name="" placeholder="Email">
+                        <input class="w-100" type="text" name="" placeholder="Email">
                         <p><strong>Contraseña </strong></p>
-                        <input type="password" name="" placeholder="Contraseña">
-                        <br>
-                        <input id="enviar-boton" type="submit" name="submit" value="Entrar" />
-                        <h4>¿No tenes una cuenta?</h4> <a class="link-register" href="../register/register.html" id="enviar-boton1">Registrate</button></a>
-                        <a href="#">¿Perdiste tu contraseña?</a>  
+                        <input class="w-100" type="password" name="" placeholder="Contraseña">
+                        <p><strong>Confirma contraseña </strong></p>
+                        <input class="w-100" type="password" name="" placeholder="Confirma contraseña">
+                        <input id="registrar-boton" type="button" name="submit" value="Registrar" />
                         <img class="imagen-logo" src="https://us.123rf.com/450wm/barrazain/barrazain2003/barrazain200301238/143378265-sc-logo-letter-monogram-with-triangle-shape-design-template-isolated-on-black-background.jpg?ver=6" alt="">
                         <h3 class="hardstore">HARDSTORE</h3>
                         </form>

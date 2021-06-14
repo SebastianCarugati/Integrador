@@ -64,23 +64,7 @@ main {
 
  }
 
- @media (max-width: 1000px) {
-    .contenedor-cards {
-        width: 100px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contenedor-header {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-
- }
-
+ 
  .card {
     -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
     -moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
@@ -104,7 +88,7 @@ main {
  }
 
 
-.contenedor-footer {
+ .contenedor-footer {
     width: 100%;
     height: 400px;
     background-image: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -174,7 +158,6 @@ box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
     background-image: url(https://image.freepik.com/vector-gratis/diseno-celular-blanco_20187-272.jpg);
     background-position: center;
     background-size: 635px;
-    background-position-x: center;
     border-radius: 10%;
     -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
     -moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
@@ -209,3 +192,49 @@ font-family: 'Permanent Marker', cursive;
     text-decoration: none;
     color: inherit;   
 }
+
+
+@media (max-width: 1600px) {
+    .contenedor-cards {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-footer {                                                                                                        
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+        width: 100%;
+        
+        
+  
+    }
+
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        background-size: contain;
+        width: 500px;
+    }
+
+    .card-contacto {
+        background-size: 635px;
+        
+    }
+
+    .mapa {
+        height: 400px;
+        width: 400px;
+    }
+
+
+
+
+ }

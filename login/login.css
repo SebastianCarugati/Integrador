@@ -12,9 +12,11 @@ body {margin: 0px;
     
     a {
         font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+
 
     }
-
+    
     p {
         font-family: 'Raleway', sans-serif;
     
@@ -124,7 +126,12 @@ body {margin: 0px;
         animation-iteration-count: infinite;
         animation-duration: 2s;
     }
-    
+
+    .link-register {
+      text-decoration: none;
+      color: white;
+    }
+
 
     
     #enviar-boton {
@@ -152,12 +159,29 @@ body {margin: 0px;
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: "Raleway SemiBold", sans-serif;
     height: 42.3px;
-    margin: 0 auto;
-    margin-top: 2px;
     transition: 0.25s;
     width: 153px;
 
  }
    
+ #enviar-boton1:hover {
+    cursor: pointer;
+    color: black;
+    background: -webkit-linear-gradient(right, #bfbfbf, #2baf2b);
+    box-shadow: 0px 1px 8px #bfbfbf;
+    
+ }
+
+
+ @media (max-width: 1200px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 1;
+    }
+ }

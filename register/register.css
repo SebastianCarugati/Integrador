@@ -1,0 +1,177 @@
+body {margin: 0px;
+    padding: 0px;
+   }
+
+   h4 {
+       font-family: 'Raleway', sans-serif;
+   }
+
+   input {
+       font-family: 'Raleway', sans-serif;
+   }
+   
+
+   a {
+       font-family: 'Raleway', sans-serif;
+
+   }
+
+   p {
+       font-family: 'Raleway', sans-serif;
+   
+   }
+
+   .logo-pagina {
+       height: 70px;
+       width: 90px;
+       display: flex;
+       flex-wrap: wrap;
+       margin-right: 35%;
+       margin-bottom: 150px;
+       padding: 0;
+       
+   }
+   
+   .imagen-logo {
+       border-radius: 10%;
+       height: 70px;
+       width: 70px;
+   }
+   
+   .contenedor-header {
+       width: 100%;
+   }        
+   
+   @keyframes cambio-de-color {
+       0% {
+           text-shadow: 4px 2px 33px rgba(255,0,0,0.5);
+       }
+       50% {
+           text-shadow: 4px 2px 33px rgba(255,0,0,0.76);
+       }
+       100% {
+           text-shadow: 4px 2px 33px rgba(255,0,0,1);
+       }
+   }
+   
+   .titulo-hardstore {
+       font-family: 'Permanent Marker', cursive;
+       color: white;
+       font-size: 1rem;
+       text-shadow: 4px 2px 31px rgba(255,0,0,1);
+       animation-name: cambio-de-color;
+       animation-iteration-count: infinite;
+       animation-duration: 2s;
+   }
+
+
+   .contenedor {
+   height: 100%;
+   width: 100%;
+   background: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/03/setup-gaming-2267149.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;}
+   
+   
+   .card {
+       background-image: url(https://images.pexels.com/photos/1166602/pexels-photo-1166602.png?cs=srgb&dl=pexels-florian-weihmann-1166602.jpg&fm=jpg);
+       background-size: cover;
+       border-radius: 8px;
+       box-shadow: 3px 4px 8px rgba(0.5, 0, 0, 1);
+       height: 600px;
+       display: flex;
+       justify-content: center;
+       margin: 6rem auto 8.1rem auto;
+       margin-top: 100px;
+       width: 600px;
+       display: flex;
+       flex-direction: column;
+     }
+   
+   
+   .Titulo-register { margin: 0px;
+       padding: 0px 0px 22px;
+       text-align: center;
+       margin-top: 240px;
+       font-size: 70px;
+       color: white;
+       font-family: 'Raleway', sans-serif;
+       letter-spacing: 4px;
+   }
+
+   .Registro {
+       width: 100%;
+   }
+   
+     .formulario { align-items: center;
+       display: flex;
+       flex-direction: column;
+       margin: 0%;
+       padding: 5%;
+       color: white;
+     }
+
+
+     .imagen-logo {
+         height: 100px;
+         margin-top: 60px;
+         border-radius: 10%;
+         width: 100px;
+         display: flex;
+         background-size: contain;
+     }
+   
+   .hardstore {
+       font-family: 'Permanent Marker', cursive;
+       color: white;
+       font-size: 2rem;
+       text-shadow: 4px 2px 31px rgba(255,0,0,1);
+       animation-name: cambio-de-color;
+       animation-iteration-count: infinite;
+       animation-duration: 2s;
+   }
+   
+   .terminos {
+    font-size: 0.7em;
+       
+   }
+   
+
+   
+   #registrar-boton {
+       background: -webkit-linear-gradient(right, #bfbfbf, #ff0000);
+       border: none;
+       border-radius: 21px;
+       box-shadow: 0px 1px 8px #bfbfbf;
+       cursor: pointer;
+       color: white;
+       font-family: "Raleway SemiBold", sans-serif;
+       height: 42.3px;
+       margin: 0 auto;
+       margin-top: 20px;
+       transition: 0.25s;
+       width: 153px;
+   }
+
+   #registrar-boton:hover {
+       cursor: pointer;
+       color: black;
+       background: -webkit-linear-gradient(right, #bfbfbf, #2baf2b);
+       box-shadow: 0px 1px 8px #bfbfbf;
+       
+
+
+
+   }
+   
+   @media (max-width: 1600px) {
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            z-index: 1;
+        }
+
+   }

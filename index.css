@@ -17,6 +17,13 @@ li {
 }
 
 
+header {
+    width: 100%;
+    height:10%;
+    margin: 0%;
+    padding: 0%;
+
+}
 
 .carousel-inner {
     height: 60%;
@@ -41,10 +48,7 @@ li {
     width: 70px;
 }
 
-.navbar { 
-    position: fixed;
-}
-    
+
 
 @keyframes cambio-de-color {
     0% {
@@ -68,11 +72,24 @@ li {
     animation-duration: 2s;
 }
 
+
+
+
 .card-title {
     text-align: center;
+    color: white;
     font-family: 'Permanent Marker', cursive;
 }
 
+.card-text {
+    color: white;
+    text-align: center;
+}
+
+.card-text2 {
+    color: white;
+    text-align: center;
+}
 .palabras-resaltadas {
     color: red;
     border-bottom: red;
@@ -148,7 +165,6 @@ box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
     background-image: url(https://image.freepik.com/vector-gratis/diseno-celular-blanco_20187-272.jpg);
     background-position: center;
     background-size: 635px;
-    background-position-x: center;
     border-radius: 10%;
     -webkit-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
     -moz-box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
@@ -183,3 +199,77 @@ font-family: 'Permanent Marker', cursive;
     text-decoration: none;
     color: inherit;   
 }
+
+@media (max-width: 1600px) {
+
+    .carousel-inner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carousel-item {
+        height: 500px;
+    
+        
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+  
+
+    .conocenos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .contenedor-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contenedor-footer {                                                                                                        
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+        width: 100%;
+        background-size: cover;
+        
+  
+    }
+
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        background-size: contain;
+        width: 500px;
+    }
+
+    .card-contacto {
+        background-size: 635px;
+        
+    }
+
+    .mapa {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+    
+
+
