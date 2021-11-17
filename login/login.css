@@ -21,24 +21,6 @@ body {margin: 0px;
         font-family: 'Raleway', sans-serif;
     
     }
-
-    .logo-pagina {
-        height: 70px;
-        width: 90px;
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 35%;
-        margin-bottom: 150px;
-        padding: 0;
-        
-    }
-    
-    .imagen-logo {
-        border-radius: 10%;
-        height: 70px;
-        width: 70px;
-    }
-    
     .contenedor-header {
         width: 100%;
     }        
@@ -53,16 +35,6 @@ body {margin: 0px;
         100% {
             text-shadow: 4px 2px 33px rgba(255,0,0,1);
         }
-    }
-    
-    .titulo-hardstore {
-        font-family: 'Permanent Marker', cursive;
-        color: white;
-        font-size: 1rem;
-        text-shadow: 4px 2px 31px rgba(255,0,0,1);
-        animation-name: cambio-de-color;
-        animation-iteration-count: infinite;
-        animation-duration: 2s;
     }
 
 
@@ -84,7 +56,7 @@ body {margin: 0px;
         display: flex;
         justify-content: center;
         margin: 6rem auto 8.1rem auto;
-        margin-top: 250px;
+        margin-top: 150px;
         width: 329px;
         display: flex;
         flex-direction: column;
@@ -94,7 +66,6 @@ body {margin: 0px;
     .Titulo-login { margin: 0px;
         padding: 0px 0px 22px;
         text-align: center;
-        margin-top: 240px;
         font-size: 70px;
         font-family: 'Raleway', sans-serif;
         letter-spacing: 4px;
@@ -106,26 +77,6 @@ body {margin: 0px;
         margin: 0%;
         padding: 0%;
       }
-
-
-      .imagen-logo {
-          height: 100px;
-          margin-top: 60px;
-          border-radius: 10%;
-          width: 100px;
-          display: flex;
-          background-size: contain;
-      }
-    
-    .hardstore {
-        font-family: 'Permanent Marker', cursive;
-        color: white;
-        font-size: 2rem;
-        text-shadow: 4px 2px 31px rgba(255,0,0,1);
-        animation-name: cambio-de-color;
-        animation-iteration-count: infinite;
-        animation-duration: 2s;
-    }
 
     .link-register {
       text-decoration: none;
@@ -165,6 +116,14 @@ body {margin: 0px;
     transition: 0.25s;
     width: 153px;
 
+ }
+
+ #enviar-boton:hover {
+    cursor: pointer;
+    color: black;
+    background: -webkit-linear-gradient(right, #bfbfbf, #2baf2b);
+    box-shadow: 0px 1px 8px #bfbfbf;
+    
  }
    
  #enviar-boton1:hover {

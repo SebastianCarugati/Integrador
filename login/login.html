@@ -25,27 +25,24 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+        <a class="nav-link active" aria-current="page" href="../home/index.html">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="../index.html">Conocenos</a>
+        <a class="nav-link active" href="../home/index.html">Conocenos</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Mas
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="../armatupcpage/index.html">Arma tu pc</a></li>
-          <li><a class="dropdown-item" href="../login/login.html  ">Registrate</a></li>
+          <li><a class="dropdown-item" href="login.html">Arma tu pc</a></li>
+          <li><a class="dropdown-item" href="../register/register.html">Registrate</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="../index.html">Contacto</a></li>
+          <li><a class="dropdown-item" href="../home/index.html">Contacto</a></li>
         </ul>
       </li>
     </ul>
-    <div class="logo-pagina">
-      <img class="imagen-logo" src="https://us.123rf.com/450wm/barrazain/barrazain2003/barrazain200301238/143378265-sc-logo-letter-monogram-with-triangle-shape-design-template-isolated-on-black-background.jpg?ver=6" alt="">
-      <h3 class="titulo-hardstore">HARDSTORE</h3>
-  </div>
+
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
       <button class="btn btn-outline-light" type="submit">IR</button>
@@ -54,9 +51,6 @@
 </div>
 </nav>
 </header>
-
-
-
             <main>
             <div class="contenedor">
                 <div class="card">
@@ -64,20 +58,20 @@
                         <h2 class="Titulo-login">Ingresa</h2>
                         <form class="formulario">
                         <p> <strong>Email</strong> </p>
-                        <input type="text" name="" placeholder="Email">
+                        <input type='text' id='email' placeholder="Email" />
                         <p><strong>Contraseña </strong></p>
-                        <input type="password" name="" placeholder="Contraseña">
+                        <input type='password' id='password' placeholder="Contraseña"/>
                         <br>
-                        <input id="enviar-boton" type="submit" name="submit" value="Entrar" />
+                        <button type='button' id='submit'>Login</button>
                         <h4>¿No tenes una cuenta?</h4> <a class="link-register" href="../register/register.html" id="enviar-boton1">Registrate</button></a>
                         <a href="#">¿Perdiste tu contraseña?</a>  
-                        <img class="imagen-logo" src="https://us.123rf.com/450wm/barrazain/barrazain2003/barrazain200301238/143378265-sc-logo-letter-monogram-with-triangle-shape-design-template-isolated-on-black-background.jpg?ver=6" alt="">
-                        <h3 class="hardstore">HARDSTORE</h3>
                         </form>
                     </div>
                 </div>
             </div>
         </main>
+
+        <script src= "login.js"></script>
         </body>
     </head>
 </html>

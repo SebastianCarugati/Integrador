@@ -11,11 +11,10 @@
 <link rel="stylesheet" media="(max-width: 800px)" href="index.css">
 </head>
 
-<body class="bg-dark">
-    <header class="bg-dark">
+<body class=>
+    <header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        
+    <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +33,8 @@
             Mas
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="armatupcpage/index.html">Arma tu pc</a></li>
-            <li><a class="dropdown-item" href="login/login.html">Registrate</a></li>
+            <li><a class="dropdown-item" href="../login/login.html">Compra tus productos</a></li>
+            <li><a class="dropdown-item" href="../login/login.html">Registrate</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#Contacto">Contacto</a></li>
           </ul>
@@ -45,18 +44,19 @@
         <img class="imagen-logo" src="https://us.123rf.com/450wm/barrazain/barrazain2003/barrazain200301238/143378265-sc-logo-letter-monogram-with-triangle-shape-design-template-isolated-on-black-background.jpg?ver=6" alt="">
         <h3 class="titulo-hardstore">HARDSTORE</h3>
     </div>
+
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-light" type="submit">IR</button>
+        <button class="btn btn-outline-dark" type="submit">IR</button>
       </form>
     </div>
   </div>
 </nav>
 <br>
 </header>
-
-    <main class= "contenedor-main bg-dark">
-      <div class="p-0 mb-2 bg-dark text-white h-100 w-100">
+<br>
+    <main class= "contenedor-main">
+      <div class="p-0 mb-2text-white h-100 w-100">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,7 +65,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://24h24l.org/images/banner-hardware.png" class="w-100 h-100" alt="...">
+                <img src="https://latarde.com/wp-content/uploads/2019/08/Diferencias-Entre-Intel-y-AMD.jpg" class="w-100 h-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>PROCESADORES INTEL Y AMD</h5>
                   <p>TE ASESORAMOS SOBRE TU CPU DEPENDIENDO TU NECESIDAD</p>
@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://www.nfortec.com/modules/ph_simpleblog/covers/36.png" class="d-block w-100 h-100" alt="...">
+                <img src="https://pbblogassets.s3.amazonaws.com/uploads/2020/07/13110748/Build-an-editing-PC.jpg" class="d-block w-100 h-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>GABINETES CON SLOT PARA WATERCOOLING</h5>
                   <p>ARMAMOS TU PC EN LOS GABINETES MEJORES REFRIGERADOS EN LA ACTUALIDAD</p>
@@ -99,21 +99,22 @@
       <div class="conocenos">
         <div class="card-body">
           <h5 class="card-title" id="Conocenos">¿A que nos dedicamos?</h5>
-          <p class="card-text">SC Hardstore es una tienda y taller con más 17 años dentro del rubro tecnológico en Argentina. Nos dedicamos a la venta y armado de computadoras, notebooks, hardware y productos periféricos para consumidores particulares, empresas o revendedores.
-            Marcas como Asus, SkullCandy, MSI, Gigabyte, Kingston, Intel, Nvidia, HP, Epson, Samsung y Western Digital nos han hecho sus representantes oficiales en el país.
+          <p class="card-text"> SC Hardstore es una tienda y taller con más 17 años dentro del rubro tecnológico en Argentina. Nos dedicamos a la venta y armado de computadoras, notebooks, hardware y productos periféricos para consumidores particulares, empresas o revendedores.
+            Marcas como <span class= "bg-success">Asus, SkullCandy, MSI, Gigabyte, Kingston, Intel, Nvidia, HP, Epson, Samsung y Western Digital</span> nos han hecho sus representantes oficiales en el país.
             En SC Hardstore encontrarás todo lo que compone la PC de tus sueños. Conocemos nuestros productos y por ello te asesoramos para que hagas una compra personalizada a la altura de tus necesidades.
            </p>
-           <p class="card-text2">Nuestro público: <strong class="palabras-resaltadas">Particular:</strong> nos especializamos en entusiastas de PC Gamers y hardware de alta gama. De igual forma, tenemos equipos y piezas para cubrir cualquier necesidad o requerimiento.
+           <p class="card-text2"><strong style="font-size: 25px; text-decoration: underline;">Nuestro público:</strong>
+             <br>
+             <strong class="palabras-resaltadas">Particular:</strong> <strong> Nos especializamos en entusiastas de PC Gamers y hardware de alta gama. De igual forma, tenemos equipos y piezas para cubrir cualquier necesidad o requerimiento.</strong>
             <br>
-            <strong class="palabras-resaltadas">Corporativo:</strong> brindamos soluciones a la medida de cada empresa. Productos de alta calidad, atención inmediata en licencia y soporte.
+            <strong class="palabras-resaltadas">Corporativo:</strong> <strong>Brindamos soluciones a la medida de cada empresa. Productos de alta calidad, atención inmediata en licencia y soporte.</strong>
             <br>
-            <strong class="palabras-resaltadas">Revendedores:</strong> queremos que crezcas con nosotros, para ello disponemos de descuentos especiales pensando en tu beneficio.</p>
+            <strong class="palabras-resaltadas">Revendedores:</strong> <strong>Queremos que crezcas con nosotros, para ello disponemos de descuentos especiales pensando en tu beneficio.</strong></p>
         </div>
     </div>
  </div>
-
     </main>
-
+   
     <footer class="contenedor-footer"> 
      <div class="contenedor-iframe">
       <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26272.981976219562!2d-58.4287506!3d-34.6010575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93e4b07acf%3A0x58feb65c4cecbd64!2sSanatorio%20Otamendi!5e0!3m2!1ses!2sar!4v1622156514014!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -129,7 +130,6 @@
        <i class="fab fa-twitter icon-twitter"></i></a>
        <a href="https://web.whatsapp.com/">
        <i class="fab fa-whatsapp icon-wsp"></i></a>
-       
       </div>
     </div>
 
@@ -157,5 +157,7 @@
       </div>
 
     </footer>
+
+    <script src= "index.js"></script>
 </body>
 </html>

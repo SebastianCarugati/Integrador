@@ -64,7 +64,7 @@ header {
 
 .titulo-hardstore {
     font-family: 'Permanent Marker', cursive;
-    color: white;
+    color: black;
     font-size: 1rem;
     text-shadow: 4px 2px 31px rgba(255,0,0,1);
     animation-name: cambio-de-color;
@@ -82,13 +82,16 @@ header {
 }
 
 .card-text {
-    color: white;
+    color: black;
     text-align: center;
+    font-size: 30px;
 }
 
 .card-text2 {
-    color: white;
+    color: black;
     text-align: center;
+    border: 10px solid black;
+    background-color: yellow;
 }
 .palabras-resaltadas {
     color: red;
@@ -98,8 +101,7 @@ header {
 .contenedor-footer {
     width: 100%;
     height: 400px;
-    background-image: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-size: cover;
+    margin-top: 100px;
     background-position:50% 50%;
     background-repeat: no-repeat;
     display: flex;
@@ -128,7 +130,7 @@ box-shadow: 10px 10px 106px -8px rgba(89,65,224,1);
 .iconos i {
     width: 100%;
     font-size: 3em;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 4, 247);
     margin: 10px 10px;
     display: flex;
     justify-content: center;
@@ -219,6 +221,7 @@ font-family: 'Permanent Marker', cursive;
         flex-direction: column;
         width: 100%;
         height: 100%;
+        color: white;
     }
 
   
@@ -238,6 +241,7 @@ font-family: 'Permanent Marker', cursive;
     .contenedor-main {
         display: flex;
         flex-direction: column;
+        color: white;
     }
 
 
