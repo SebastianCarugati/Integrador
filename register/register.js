@@ -18,6 +18,7 @@ const register = async () => {
         
     };
 
+
     function redireccionar(){
         location.href='http://127.0.0.1:5500/login/login.html';
       } 
@@ -32,15 +33,30 @@ const register = async () => {
         });
 
         const json = await response.json();
-        console.log(payload)
-        alert("Te registraste con exito!")
-        localStorage.setItem("Usuario", JSON.stringify(payload))
-        if (json) {
+
+        if (   nameInput.value !== "" && 
+        lastNameInput.value !== "" && 
+        emailInput.value !== "" &&  
+        ageInput.value !== "" &&  
+        passwordInput.value !== ""
+        )
+        {
+            alert("Te registraste con exito!")
             redireccionar()
+            localStorage.setItem("Usuario", JSON.stringify(payload))
+            
         }
+        
+        else {
+            alert ("Faltan campos por completar")
+
+        }
+        
+       
     } catch( error ) {
-        alert('che error', error);
+        alert('Error', error);
     }
 }
+
 
 submitButton.addEventListener('click', register);

@@ -6,7 +6,8 @@ const boton = document.querySelector('#submit');
 
 
 const login = async () => {
-    
+
+
     const body = {
         email: emailInput.value,
         password: passwordInput.value
@@ -26,20 +27,41 @@ const login = async () => {
             body: JSON.stringify(body)
         });
 
+
+        
         const json = await response.json();
-        const token = json
-        localStorage.setItem("tokeen", token.token);
-        console.log(token)
+        const token = json 
+        let usuario = localStorage.getItem('Usuario');
+        let user= JSON.parse (usuario)
 
-        if(token){
-            redireccionar()
-        }
-    
-        else {
-            alert ("Usuario/contraseña invalido")
-        }
+       if ( user.email !== body.email &&
+        user.password !== body.password) {
+        !localStorage.setItem("tokeen", token.token) 
+       }
 
-    } 
+       if ( user.email === body.email &&
+        user.password === body.password) {
+        localStorage.setItem("tokeen", token.token) 
+       }
+        
+        
+
+       if (
+           user.email === body.email &&
+           user.password === body.password &&
+           localStorage.getItem('tokeen')
+           ) {
+        redireccionar()
+
+       } else {
+           alert ("El usuario o contraseña es invalido o inexistente")
+
+       }
+ 
+           
+      
+    }
+
     
     catch( error ) {
         alert(error);

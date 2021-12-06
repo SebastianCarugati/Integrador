@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
 <link rel="stylesheet" media="(max-width: 1200px)" href="register.css">
     <head>
+      <title>Registro</title>
         <body>
             <header>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -25,20 +26,20 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+        <a class="nav-link active" aria-current="page" href="../home/index.html">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="../index.html">Conocenos</a>
+        <a class="nav-link active" href="../home/index.html">Conocenos</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Mas
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="../armatupcpage/index.html">Arma tu pc</a></li>
+          <li><a class="dropdown-item" href="../login/login.html  ">Productos</a></li>
           <li><a class="dropdown-item" href="../login/login.html  ">Registrate</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="../index.html">Contacto</a></li>
+          <li><a class="dropdown-item" href="../home/index.html">Contacto</a></li>
         </ul>
       </li>
     </ul>
@@ -57,18 +58,44 @@
                     <div class="Registro">
                         <h2 class="Titulo-register">Registrate</h2>
                         <form class="formulario">
-                        <p> <strong>Nombre</strong> </p>
-                        <input class="w-100" type="text" id='name' placeholder="Nombre">
-                        <p> <strong>Apellido</strong> </p>
-                        <input class="w-100" type="text" id='lastName' placeholder="Apellido">
-                        <p> <strong>Email</strong> </p>
-                        <input class="w-100" type="text" id='email' placeholder="Email">
-                        <p><strong>Edad</strong></p>
-                        <input class="w-100" type="text" id='age' placeholder="Edad">
-                        <p><strong>Contraseña</strong></p>
-                        <input class="w-100" type="password" id='password' placeholder="Confirma contraseña">
-                        <input id="registrar-boton" type="button" name="submit" value="Registrar" />
+                          <div class="w-100">
+                            <label for="validationDefault01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" value="" required="">
+                          </div>
+                          <div class="w-100">
+                            <label for="validationDefault02" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" value="" required="">
+                          </div>
+                          <div class="w-100">
+                            <label for="validationDefault05" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="email" required="">
+                          </div>
+                          <div class="w-100">
+                            <label for="validationDefault03" class="form-label">Edad</label>
+                            <input type="text" class="form-control" id="age" required="">
+                          </div>
+                          <div class="w-100">
+                            <label for="validationDefault05" class="form-label">Contraseña</label>
+                            <input type="text" class="form-control" id="password" required="">
+                          </div>
+                          </div>
+                          <div class="col-12">
+                            <button id= "registrar-boton" type="button" name= "submit" value= "Registrar">Registrar</button>
+                          </div>
                         </form>
+                        <!-- <form class="formulario">
+                        <p> <strong>Nombre</strong> </p>
+                        <input class="w-100" type="text" id='name' placeholder="Nombre" required>
+                        <p> <strong>Apellido</strong> </p>
+                        <input class="w-100" type="text" id='lastName' placeholder="Apellido" required>
+                        <p> <strong>Email</strong> </p>
+                        <input class="w-100" type="text" id='email' placeholder="Email" required>
+                        <p><strong>Edad</strong></p>
+                        <input class="w-100" type="text" id='age' placeholder="Edad" required >
+                        <p><strong>Contraseña</strong></p>
+                        <input class="w-100" type="password" id='password' required>
+                        <input id="registrar-boton" type="button" name="submit" value="Registrar" />
+                        </form> -->
                     </div>
                 </div>
             </div>
