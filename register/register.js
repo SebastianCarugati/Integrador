@@ -20,7 +20,7 @@ const register = async () => {
 
 
     function redireccionar(){
-        location.href='http://127.0.0.1:5500/login/login.html';
+        location.href='https://sebastianintegradorjs.netlify.app/login/login.html';
       } 
 
     try{

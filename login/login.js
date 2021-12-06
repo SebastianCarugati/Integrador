@@ -15,7 +15,7 @@ const login = async () => {
     console.log(body)
     
     function redireccionar(){
-        location.href='http://127.0.0.1:5500/armatupcpage/products.html';
+        location.href='https://sebastianintegradorjs.netlify.app//armatupcpage/products.html';
       } 
 
     try {
